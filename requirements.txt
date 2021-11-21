@@ -1,14 +1,6 @@
-1.  pip install PyQT5
-Скачать PyQt5
-2. import sys
-импортирована библиотека sys
-3. from PyQt5 import uic
-С библиотеки PyQt5 испортирован модуль uic для использования ui файлов
-4. from PyQt5.QtWidgets import QApplication, QWidget, QTableWidgetItem
-Из библиотеки испортированы для вывода виджета, создания виджета и вставки элементов в QTableWidget
-5.import sqlite3
-Испортирована библиотека sqlite3 для использования базы данных
-
-
-
-
+pip==21.1.2
+PyQt5==5.15.6
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.9.0
+setuptools=57.0.0
+wheel==0.36.2
